@@ -1,5 +1,5 @@
 # python-fonasa
-Prueba técnica de selección para napsis.com
+Prueba técnica de selección para inexoos.com
 
 ## Requerimientos
 Tener instalado Python 3.x,  Mysql 5.6 o superior
