@@ -19,8 +19,8 @@ return new class extends Migration
             $table->enum('estado', ['pendiente', 'en_progreso', 'finalizada'])->default('pendiente');
             $table->timestamps();
 
-            $table->unsignedBigInteger('usuario_id')->nullable();
-            $table->foreign('usuario_id')->references('id')->on('usuarios')->onDelete('set null');
+            $table->unsignedBigInteger('user_id')->nullable();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('set null');
         });
     }
 
