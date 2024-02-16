@@ -30,5 +30,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'testuser2@example.com',
             'password' => Hash::make('user123'),
         ]);
+
+        \App\Models\Tarea::factory(100)->create();
     }
 }
