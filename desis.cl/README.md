@@ -1,6 +1,6 @@
 
 # Desis.cl
-Prueba técnica de selección para napsis.com
+Prueba técnica de selección para desis.cl
 
 ## Requerimientos
 Tener instalado Php 8.x,  Mysql 5.6 o superior
