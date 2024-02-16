@@ -20,4 +20,6 @@ class Tarea extends Model
     {
         return $this->belongsToMany(Usuario::class);
     }
+
+    
 }
